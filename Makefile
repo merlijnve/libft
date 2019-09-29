@@ -6,13 +6,13 @@
 #    By: mvan-eng <mvan-eng@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/01/10 14:10:44 by mvan-eng       #+#    #+#                 #
-#    Updated: 2019/09/27 20:54:51 by mvan-eng      ########   odam.nl          #
+#    Updated: 2019/09/29 14:24:28 by mvan-eng      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 FLAGS = -Wall -Wextra -Werror
-SRC = ft_isdigit.c ft_memcmp.c ft_putendl_fd.c ft_strcmp.c ft_striter.c \
+FILES = ft_isdigit.c ft_memcmp.c ft_putendl_fd.c ft_strcmp.c ft_striter.c \
 ft_strncmp.c ft_strsub.c ft_islower.c ft_memcpy.c ft_putnbr.c ft_strcpy.c \
 ft_striteri.c ft_strncpy.c ft_strtrim.c ft_atoi.c ft_isprint.c ft_memdel.c \
 ft_putnbr_fd.c ft_strdcount.c ft_strjoin.c ft_strnequ.c ft_tolower.c \
@@ -29,7 +29,9 @@ ft_nbrbase.c ft_natoi.c ft_putnbrlong.c ft_intlen.c ft_intos.c ft_longtos.c \
 ft_llintlen.c ft_str_to_uppercase.c ft_charindex.c ft_ulltoa.c ft_ullintlen.c \
 ft_fltoa.c ft_straddtofront.c ft_straddtoend.c ft_unbrbase.c
 
-OBJ = $(SRC:.c=.o)
+SRC = $(FILES:%=srcs/%)
+
+OBJ = $(FILES:.c=.o)
 
 all: $(NAME)
 
