@@ -5,17 +5,17 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/11 20:31:39 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/14 13:39:07 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/11 20:31:39 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:48 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_isalnum(int c)
+int	ft_isalnum(int c)
 {
-	int x;
-	int y;
+	int	x;
+	int	y;
 
 	x = ft_isdigit(c);
 	y = ft_isalpha(c);

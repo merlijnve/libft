@@ -5,16 +5,16 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/12 13:19:14 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/12 13:23:34 by jboer         ########   odam.nl         */
+/*   Created: 2019/09/12 13:19:14 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:33:41 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_ullintlen(unsigned long long n)
+int	ft_ullintlen(unsigned long long n)
 {
-	int len;
+	int	len;
 
 	len = 0;
 	if (n == 0)

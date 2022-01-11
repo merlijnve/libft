@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/27 17:08:00 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/09/27 17:21:51 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/09/27 17:08:00 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:32:36 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static int	ft_unbrbase_loop(unsigned long long l, int b, char *res)
 {
 	int	i;
-	int m;
+	int	m;
 
 	i = 67;
 	res[i] = '\0';
@@ -32,7 +32,7 @@ static int	ft_unbrbase_loop(unsigned long long l, int b, char *res)
 	return (i);
 }
 
-char		*ft_unbrbase(unsigned long long l, int b)
+char	*ft_unbrbase(unsigned long long l, int b)
 {
 	char	*res;
 	int		i;

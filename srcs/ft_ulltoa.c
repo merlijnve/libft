@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/12 13:16:37 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/16 11:15:05 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/09/12 13:16:37 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:29:22 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char		*ft_ulltoa(unsigned long long n)
+char	*ft_ulltoa(unsigned long long n)
 {
 	int		intlen;
 	char	*strn;

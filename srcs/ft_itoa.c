@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/25 13:23:24 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/10 13:14:36 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/25 13:23:24 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:09 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_itoa(int n)
 
 	i = 0;
 	intlen = ft_intlen(n);
-	strn = (char*)malloc(sizeof(char) * (intlen + 1));
+	strn = (char *)malloc(sizeof(char) * (intlen + 1));
 	if (strn == NULL)
 		return (NULL);
 	if (n == -2147483648)

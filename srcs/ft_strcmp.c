@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/08 17:19:43 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:12:20 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/08 17:19:43 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:35:32 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_strcmp(const char *s1, const char *s2)
+int	ft_strcmp(const char *s1, const char *s2)
 {
-	int x;
+	int	x;
 
 	x = 0;
 	while (s1[x] != '\0' && s2[x] != '\0' && (s1[x] == s2[x]))

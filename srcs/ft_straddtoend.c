@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/18 18:06:31 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/18 18:17:05 by jboer         ########   odam.nl         */
+/*   Created: 2019/09/18 18:06:31 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:35:53 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char		*ft_straddtoend(char *str, char *add)
+char	*ft_straddtoend(char *str, char *add)
 {
 	char	*buf;
 	size_t	l;

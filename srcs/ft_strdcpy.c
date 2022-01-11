@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/18 17:37:12 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:12:39 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/18 17:37:12 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:35:19 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_strdcpy(char *dst, const char *src, char c, int i)
+int	ft_strdcpy(char *dst, const char *src, char c, int i)
 {
 	int		b;
 

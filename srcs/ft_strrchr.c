@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/14 18:30:27 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:17:12 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/14 18:30:27 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:34:15 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (s[i] == '\0' && c == '\0')

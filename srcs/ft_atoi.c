@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/14 14:37:56 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/02/07 11:44:44 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/14 14:37:56 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:32:19 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 static int	ft_calc(int i, const char *str)
 {
-	int x;
-	int y;
+	int	x;
+	int	y;
 
 	y = 0;
 	while (ft_isdigit(str[i]))
@@ -27,11 +27,11 @@ static int	ft_calc(int i, const char *str)
 	return (y);
 }
 
-int			ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
-	int i;
-	int y;
-	int neg;
+	int	i;
+	int	y;
+	int	neg;
 
 	i = 0;
 	neg = 1;

@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/10 17:50:36 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/24 17:17:38 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/10 17:50:36 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:34:37 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (i < len && src[i] != '\0')

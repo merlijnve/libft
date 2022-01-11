@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/14 11:49:13 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:14:42 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/14 11:49:13 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:33:52 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_tolower(int c)
+int	ft_tolower(int c)
 {
 	if (c > 64 && c < 91)
 		c = c + 32;

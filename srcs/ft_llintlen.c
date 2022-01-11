@@ -5,16 +5,16 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/05 19:41:11 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/27 14:31:22 by jboer         ########   odam.nl         */
+/*   Created: 2019/09/05 19:41:11 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:02 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_llintlen(long long int n)
+int	ft_llintlen(long long int n)
 {
-	int len;
+	int	len;
 
 	len = 0;
 	if (n == 0)

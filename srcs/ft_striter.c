@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/17 20:26:54 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:16:07 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/17 20:26:54 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:35:07 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_striter(char *s, void (*f)(char *))
 {
-	int i;
+	int	i;
 
 	if (s != NULL && f != NULL)
 	{

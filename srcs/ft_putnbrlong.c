@@ -5,17 +5,17 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/06/26 13:32:19 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/05 19:25:43 by jboer         ########   odam.nl         */
+/*   Created: 2019/06/26 13:32:19 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:21:16 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void		ft_putnbrlong(long long int nb)
+void	ft_putnbrlong(long long int nb)
 {
-	long long int b;
-	long long int e;
+	long long int	b;
+	long long int	e;
 
 	if (nb == -9223372036854775807)
 	{

@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/10 15:04:06 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/09/27 17:22:28 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/10 15:04:06 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:40:28 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <string.h>
 # include <unistd.h>
 
-typedef struct		s_list
+typedef struct s_list
 {
 	void			*content;
 	size_t			content_size;
@@ -53,7 +53,7 @@ int					ft_isascii(int c);
 void				ft_bzero(void *s, size_t n);
 char				*ft_strstr(const char *haystack, const char *needle);
 char				*ft_strnstr(const char *haystack, const char *needle,
-size_t len);
+						size_t len);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);
 void				*ft_memset(void *b, int c, size_t len);

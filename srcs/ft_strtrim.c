@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/18 15:18:29 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/02/06 12:32:06 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/18 15:18:29 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:34:01 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static void	ft_justworkalready(int i, int end, char *str, char const *s)
 {
-	int b;
+	int	b;
 
 	b = 0;
 	while (i < end)
@@ -25,7 +25,7 @@ static void	ft_justworkalready(int i, int end, char *str, char const *s)
 	}
 }
 
-char		*ft_strtrim(char const *s)
+char	*ft_strtrim(char const *s)
 {
 	char	*str;
 	int		i;
@@ -38,7 +38,7 @@ char		*ft_strtrim(char const *s)
 	while ((s[i] == ' ' || s[i] == '\n' || s[i] == '\t') && s[i] != '\0')
 		i++;
 	while ((s[end - 1] == ' ' || s[end - 1] == '\n' || s[end - 1] == '\t')
-	&& end != 0)
+		&& end != 0)
 		end--;
 	if ((end - i) < 1)
 		str = ft_strnew(1);

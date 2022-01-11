@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/14 19:36:06 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:08:48 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/14 19:36:06 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:36 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

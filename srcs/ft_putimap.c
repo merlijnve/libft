@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/03/29 17:21:53 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/05/15 18:22:12 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/03/29 17:21:53 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:36:13 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_putimap(int **ar)
 {
-	int i;
-	int flag;
+	int	i;
+	int	flag;
 	int	j;
 
 	j = 0;

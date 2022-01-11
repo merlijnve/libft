@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/08/05 15:22:51 by jboer          #+#    #+#                */
-/*   Updated: 2019/08/05 15:24:52 by jboer         ########   odam.nl         */
+/*   Created: 2019/08/05 15:22:51 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:36:48 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,16 +25,16 @@ static int	ft_atoipm(const char *str, int neg)
 	return (1);
 }
 
-int			ft_natoi(const char *str, int n)
+int	ft_natoi(const char *str, int n)
 {
-	int neg;
-	int nb;
-	int pm;
+	int	neg;
+	int	nb;
+	int	pm;
 
 	neg = 1;
 	nb = 0;
-	while (*str == ' ' || *str == '\n' || *str == '\t' || *str == '\r' ||
-	*str == '\f' || *str == '\v')
+	while (*str == ' ' || *str == '\n' || *str == '\t' || *str == '\r'
+		|| *str == '\f' || *str == '\v')
 		str++;
 	if (*str == '-')
 		neg = -1;

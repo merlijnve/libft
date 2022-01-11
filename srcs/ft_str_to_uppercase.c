@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/11 16:33:56 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/09/11 16:42:13 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/09/11 16:33:56 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:35:58 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_str_to_uppercase(char *s)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (s[i] != '\0')

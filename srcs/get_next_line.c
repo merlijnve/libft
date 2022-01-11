@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/02/05 16:17:37 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/06/27 12:37:22 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/02/05 16:17:37 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:42:23 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,9 +72,9 @@ void	ft_free_stuff(char *str, int *ret)
 	free((void *)ret);
 }
 
-int		get_next_line(const int fd, char **line)
+int	get_next_line(const int fd, char **line)
 {
-	static char *trc;
+	static char	*trc;
 	char		*str;
 	int			*ret;
 

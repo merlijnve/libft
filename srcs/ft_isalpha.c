@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/11 20:22:17 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:08:43 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/11 20:22:17 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:41 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if ((c > 64 && c < 91) || (c > 96 && c < 123))
 		return (1);

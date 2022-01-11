@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/11 20:10:38 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:09:06 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/11 20:10:38 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:15 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isupper(int c)
+int	ft_isupper(int c)
 {
 	if (c > 64 && c < 91)
 		return (1);

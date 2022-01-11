@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/09/18 13:02:13 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/20 15:16:07 by jboer         ########   odam.nl         */
+/*   Created: 2019/09/18 13:02:13 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:39:16 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char		*round_up(char *str, int prec, long double f, long long n[2])
+static char	*round_up(char *str, int prec, long double f, long long n[2])
 {
 	while (prec > -1)
 	{
@@ -40,7 +40,7 @@ static char		*round_up(char *str, int prec, long double f, long long n[2])
 	return (str);
 }
 
-static void		add_prec(char *str, int prec, long double f)
+static void	add_prec(char *str, int prec, long double f)
 {
 	int			dec;
 	int			i;
@@ -62,7 +62,7 @@ static void		add_prec(char *str, int prec, long double f)
 	}
 }
 
-static int		fl_neg(char *str, int prec, long long dec, long double f)
+static int	fl_neg(char *str, int prec, long long dec, long double f)
 {
 	int			intlen;
 
@@ -82,7 +82,7 @@ static int		fl_neg(char *str, int prec, long long dec, long double f)
 	return (1);
 }
 
-static void		fl_pos(char *str, int prec, long long dec, long double f)
+static void	fl_pos(char *str, int prec, long long dec, long double f)
 {
 	int			intlen;
 
@@ -98,7 +98,7 @@ static void		fl_pos(char *str, int prec, long long dec, long double f)
 		add_prec(str, prec, f);
 }
 
-char			*ft_fltoa(long double f, int prec)
+char	*ft_fltoa(long double f, int prec)
 {
 	char		*str;
 	long long	dec;

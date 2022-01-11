@@ -5,16 +5,16 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/14 13:00:11 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/25 21:16:25 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/14 13:00:11 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:34:44 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strncmp(const char *s1, const char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned long x;
+	unsigned long	x;
 
 	x = 0;
 	if (n == 0)

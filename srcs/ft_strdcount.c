@@ -5,16 +5,16 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/19 12:17:09 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:12:33 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/19 12:17:09 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:29:14 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_strdcount(char const *s, char c)
+int	ft_strdcount(char const *s, char c)
 {
-	int i;
-	int count;
-	int temp;
+	int	i;
+	int	count;
+	int	temp;
 
 	temp = 0;
 	count = 0;

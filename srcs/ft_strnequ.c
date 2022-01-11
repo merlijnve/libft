@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/18 13:24:19 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/28 21:36:19 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/18 13:24:19 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:34:29 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strnequ(char const *s1, char const *s2, size_t n)
+int	ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	if (s1 != NULL && s2 != NULL)
 	{

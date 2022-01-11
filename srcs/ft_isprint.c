@@ -5,12 +5,12 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/14 19:29:21 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:09:01 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/14 19:29:21 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:38:21 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isprint(int c)
+int	ft_isprint(int c)
 {
 	if (c > 31 && c < 127)
 		return (1);

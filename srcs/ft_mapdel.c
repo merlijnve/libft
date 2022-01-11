@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/03/28 12:57:26 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/05/30 14:00:36 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/03/28 12:57:26 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:24:14 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_mapdel(void **map)
 {
-	int b;
+	int	b;
 
 	b = 0;
 	while (map[b])

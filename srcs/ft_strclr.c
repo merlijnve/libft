@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/17 20:13:27 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/30 20:17:51 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/17 20:13:27 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:31:20 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_strclr(char *s)
 {
-	int i;
+	int	i;
 
 	if (s != NULL)
 	{

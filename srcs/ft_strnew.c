@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: jboer <jboer@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/23 13:32:29 by jboer          #+#    #+#                */
-/*   Updated: 2019/09/17 13:50:45 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/23 13:32:29 by jboer         #+#    #+#                 */
+/*   Updated: 2022/01/11 13:34:23 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strnew(size_t size)
 {
-	char *str;
+	char	*str;
 
 	str = (char *)malloc(sizeof(char) * (size + 1));
 	if (str == NULL)

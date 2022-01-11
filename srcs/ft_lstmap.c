@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: mvan-eng <mvan-eng@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/01/29 15:24:30 by mvan-eng       #+#    #+#                */
-/*   Updated: 2019/01/31 19:47:52 by mvan-eng      ########   odam.nl         */
+/*   Created: 2019/01/29 15:24:30 by mvan-eng      #+#    #+#                 */
+/*   Updated: 2022/01/11 13:37:35 by merlijn       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void		ft_lstncpy(t_list *lst, t_list *new,
+static void	ft_lstncpy(t_list *lst, t_list *new,
 int *len, t_list *(*f)(t_list *elem))
 {
 	if (*len < 2)
@@ -22,7 +22,7 @@ int *len, t_list *(*f)(t_list *elem))
 	ft_lstncpy(lst->next, new->next, len, f);
 }
 
-static void		ft_lstcount(t_list *lst, int *len)
+static void	ft_lstcount(t_list *lst, int *len)
 {
 	if (lst == NULL)
 		return ;
@@ -30,7 +30,7 @@ static void		ft_lstcount(t_list *lst, int *len)
 	ft_lstcount(lst->next, len);
 }
 
-t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
 	int		*len;
 	t_list	*new;
